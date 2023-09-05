@@ -1,0 +1,214 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* Aca pongo CSS de elementos que van a repetirse durante la pagina */
+
+#sign-up {
+    background-color: #3883f6;
+    color: white;
+    padding: 8px;
+    max-width: 100px;
+    max-height: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+/* de aca para abajo es el css de se la seccion 1, que es lo primero que se ve al entrar en la pagin */
+.box-1 {
+    background-color: #1f2937;
+    min-height: 50px;
+    flex-grow: 1;
+    color: white
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0;
+    margin: 0 15%;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex: 0;
+    gap: 10%;
+    margin-right: 4%;
+    
+}
+
+#img-intro {
+    border: 2px solid white;
+    height: 200px;
+    min-width: 400px;
+    flex: 0;
+    margin-top: 4%;
+    margin-bottom: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 00px; 
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+    flex-wrap: wrap;
+}
+
+#title-1 {
+    font-size: 48px;
+    margin-bottom: 1%;
+    font-weight: bold;
+    margin-top: 2%
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    flex: 0;
+    margin-right: 4%;
+}
+
+.text-container >p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Aca arranca el css de la seccion 2, que es la informacion general */
+.info-container, .suscribe {
+    background-color: whitesmoke;
+    min-height: 50px;
+}
+
+#title-2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.random-info-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: auto 8%;
+    flex-wrap: wrap;
+}
+
+.box-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+
+}
+
+.img-info {
+    min-width: 110px;
+    max-width: 120px;
+    min-height: 110px;
+    max-height: 120px;
+    border: 2px solid #3883f6;
+    border-radius: 15%;
+    flex-grow: 0;
+    gap: 4%;
+    margin:auto
+}
+
+.img-info > img {
+    z-index: 1;
+}
+
+.random-info-container > p {
+    max-width: 100px;
+}
+
+/* seccion 3 */
+.quote {
+    background-color: #e5e7eb;
+    min-height: 50px;
+}
+
+.quote-box {
+    margin: 5% 20%;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+#author {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: end;
+    font-weight: bold;
+}
+
+/* seccion 4 */
+.suscribe {
+    color: white;
+}
+
+.suscribe-box {
+    display:flex;
+    flex-grow: 0;
+    background: #3883f6;
+    margin: 3% 20%;
+    min-height: 60px;
+    min-width: 600px;
+    max-height: 80px;
+    min-width: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+
+#main-subs-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#shadow-text {
+    color:#e5e7eb;
+    margin-top: 10px;
+}
+
+/* seccion 5 - footer */
+.footer {
+    background-color: #1f2937;
+    min-height: 50px;
+    color: #e5e7eb;
+}
+
+.footer > p {
+    margin: 2% auto;
+    text-align: center;
+}
+
+
+
+
